@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #FFD1DC;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #333;
+}
+body {
+    background-image: url(chatbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-color: #f5f5dc; /* Couleur de fond beige */
+    /* Le reste de tes styles pour body */
+}
+.lien-avis {
+    color: #0000FF; /* Bleu */
+    text-decoration: none; /* Optionnel: enlève le soulignement du lien */
+}
+
+.lien-avis:hover {
+    color: #FF0000; /* Rouge au survol */
+    text-decoration: underline; /* Optionnel: souligne le lien au survol */
+}
+.btn-ajouter {
+    background-color: #FFD1DC; /* Couleur du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Aucune bordure */
+    cursor: pointer; /* Curseur en forme de pointeur */
+    padding: 5px 10px; /* Espacement intérieur */
+    margin-left: 10px; /* Espace à gauche du bouton */
+    border-radius: 5px; /* Bordures arrondies */
+    font-size: 0.8rem; /* Taille du texte */
+}
+
+.btn-ajouter:hover {
+    background-color: #F3A5B6; /* Couleur au survol */
+}

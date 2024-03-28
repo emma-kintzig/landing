@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Boutique de Colliers pour Chats😺</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>😺Bienvenue dans notre Boutique de Colliers pour Chats!😺</h1>
+        <p>Explorez notre collection de colliers pour votre ami félin! 🐈‍⬛</p>
+        <footer>
+    <p><a href="avis.html">Avis</a></p>
+</footer>
+    </header>
+    <main>
+        <section class="product" id="product1">
+            <img src="images/collier1.jpg" alt="Collier en cuir rouge">
+            <h2>Collier en cuir rouge <button class="btn-ajouter">Ajouter au panier</button></h2>
+            <p>Prix: 15€</p>
+            <p>Description: Un collier élégant et confortable pour votre chat.</p>
+        </section>
+        <section class="product" id="product2">
+            <img src="images/collier2.jpg" alt="Collier avec clochette">
+            <h2>Collier avec clochette<button class="btn-ajouter">Ajouter au panier</button></h2>
+            <p>Prix: 10€</p>
+            <p>Supplément gravure: 5€, couleur au choix<p>
+            <p>Description: Parfait pour savoir où se trouve votre chat à tout moment.</p>
+        </section>
+        <section class="product" id="product3">
+            <img src="images/collier3.jpg" alt="Collier lumineux LED">
+            <h2>Collier lumineux LED<button class="btn-ajouter">Ajouter au panier</button></h2>
+            <p>Prix: 20€</p>
+            <p>Description: Idéal pour les promenades nocturnes.</p>
+        </section>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactez-nous✉️- Boutique de Colliers pour Chats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>✉️Contactez-nous✉️</h1>
+    </header>
+    <main>
+        <p>Pour toute question, veuillez nous contacter via le formulaire ci-dessous ou par e-mail à <a href="mailto:contact@boutiquecollierchat.fake">contact@boutiquecollierchat.fake</a>.</p>
+        <form>
+            <label for="name">Votre nom:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Votre e-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Votre message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </main>
+</body>
+</html>
+<footer>
+    <p><a href="contact.html">Contactez-nous</a></p>
+</footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<i class="fas fa-cat"></i>
+<h1><i class="fas fa-cat"></i> Merci et à bientôt dans notre Boutique de Colliers pour Chats!👋😸</h1>
+<script>
+    // Simuler un panier vide
+    let panier = 0;
+
+    // Fonction pour ajouter un article au panier
+    function ajouterAuPanier() {
+        panier++;
+        alert('Article ajouté au panier. Vous avez maintenant ' + panier + ' article(s) dans votre panier.');
+    }
+
+    // Ajouter l'écouteur d'événements à tous les boutons "Ajouter au panier"
+    document.querySelectorAll('.btn-ajouter').forEach(button => {
+        button.addEventListener('click', ajouterAuPanier);
+    });
+</script>
+
